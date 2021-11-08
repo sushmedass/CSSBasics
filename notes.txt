@@ -1,0 +1,19 @@
+div - structure and divide content, using CSS.
+    - divide content into boxes.
+colorhunt.co - https://colorhunt.co/palette/d3f6d1a7d7c574b49b5c8d89
+
+CSS Box Model
+- margin,height,width,padding
+- border default 3px
+- padding is space between text and element (eg.border)
+- margin is space between this element and other elements
+
+CSS Display Property
+- inline, block, inline-block, none
+- default image elements, same as image, how to change it's height?
+- whereas block elements (p,h1,div..etc), takes up whole width of the page
+  hence cannot edit a part of the word in these elements.
+  Use span instead.
+- span, img, a tags are all inline elements, cannot change width.
+- but in block elements width can be changed, but cannot style part of it's words.
+- Display Property is used in block elements to inline-block
