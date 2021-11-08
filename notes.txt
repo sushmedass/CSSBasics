@@ -23,4 +23,6 @@ CSS Static and Relative position
 - cannot change the position by simply saying left :20px
 - have to define position:relative; left: 20px, changes the element position
 - it creates a margin Relative to the postion (left,right,up,down)
-- Absolute position, elements are pushed to that position
+- Absolute position, elements are pushed to that position, wrt to parent body
+- if a Relative container is created, and inside that an Absolute div is present,
+    then position will be moved within the parent container
