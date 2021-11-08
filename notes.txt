@@ -17,3 +17,9 @@ CSS Display Property
 - span, img, a tags are all inline elements, cannot change width.
 - but in block elements width can be changed, but cannot style part of it's words.
 - Display Property is used in block elements to inline-block
+
+CSS Static and Relative position
+- by default elements are positioned statically
+- cannot change the position by simply saying left :20px
+- have to define position:relative; left: 20px, changes the element position
+- it creates a margin relative to the postion (left,right,up,down)

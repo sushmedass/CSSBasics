@@ -21,12 +21,17 @@ div{
     background-color: aquamarine;
     height: 200px;
     width: 200px;
+    position: relative;
+    left: 200px;
 }
 
 .bottomDiv{
     background-color: cyan;
     height: 200px;
     width: 200px;
+    display: inline-block;
+    position: relative;
+    bottom : 200px
 }
 
 .spanElement{
