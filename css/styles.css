@@ -1,47 +1,45 @@
 body{
     margin: 0px;
+    text-align: center;
 }
 
 h1{
     margin-top: 0px;
+    padding-top: 100px;
     color: #5C8D89 ;
-    padding-left:  50%;
 }
 
 p{
     color: #5C8D89;
-    padding-left: 50%;
 }
 
 div{
     background-color: #D3F6D1;
-}
-
-.middleDiv{
-    background-color: aquamarine;
-    height: 200px;
-    width: 200px;
-    display: inline-block;
-    position: relative;         
-    left: 200px;
-}
-
-.container{
-    background-color: red;
-    height: 500px;
-    width: 500px;
     position: relative;
+    padding-top: 100px;
 }
 
-.bottomDiv{
-    background-color: cyan;
-    height: 200px;
-    width: 200px;
-    position: absolute;
-    top: 200px;
-    right: 200px;
+.middle-container{
+
+}
+
+
+.bottom-container{
+
 }
 
 .spanElement{
     color: black
+}
+
+.topCloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottomCloud{
+    position: absolute;
+    left: 300px;
+    bottom : 300px
 }

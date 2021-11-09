@@ -26,3 +26,15 @@ CSS Static and Relative position
 - Absolute position, elements are pushed to that position, wrt to parent body
 - if a Relative container is created, and inside that an Absolute div is present,
     then position will be moved within the parent container
+- Fixed fixes the element while scrolling through at the same position
+- Absolute in Relative position
+  -- if not relative position, then no parent, so the elements
+     will position wrt to the body
+  -- if want a parent element (eg:- div), and then position children(eg:-images)
+     in them, make parent = relative and children = absolute.
+
+
+
+CSS Centering
+- text-align:center centers the elements, but if width changes, it doesnt come to the center
+- use margin : auto if block element with set width
