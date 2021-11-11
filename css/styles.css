@@ -108,16 +108,19 @@ p{
 }
 
 .devGif{
-    width: 45%;
+    width: 30%;
     float: left;
     /* clear: left; */
     margin-right: 30px;
+    margin-top: 30px;
 }
 
 .officeGif{
-    width: 40%;
+    width: 25%;
     float: right;
+    clear: left;
     margin-left: 30px;
+    margin-top: 30px;
 }
 
 .footer{
