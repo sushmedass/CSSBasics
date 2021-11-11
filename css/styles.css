@@ -1,45 +1,135 @@
 body{
     margin: 0px;
     text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 7px;
+    width: 10%;
+    color: #D3F6D1;
+    margin: 100px auto;
+    
 }
 
 h1{
-    margin-top: 0px;
-    padding-top: 100px;
+    margin: 50px auto 0 auto;
     color: #5C8D89 ;
+    font-size: 5.625rem;
+    font-family: 'Sacramento', cursive;
+    line-height: 1.5;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #5C8D89 ;
+    font-weight: normal;
+}
+
+.spanElement{
+    color: rgb(14, 192, 59);   
+}
+
+h3{
+    color: #74B49B;
+    font-family: 'Montserrat', sans-serif;
 }
 
 p{
-    color: #5C8D89;
+    color: #011d1b;
+    line-height: 2;
 }
 
-div{
+.top-container{
     background-color: #D3F6D1;
     position: relative;
     padding-top: 100px;
 }
 
-.middle-container{
+.middle-container {
+    margin: 100px 0;
+  }
+  
+  .bottom-container {
+    background-color: #A7D7C5;
+    padding: 50px 0 20px;
+  }
 
+.btn {
+    background: #A7D7C5;
+    background-image: -webkit-linear-gradient(top, #A7D7C5, #74B49B);
+    background-image: -moz-linear-gradient(top, #A7D7C5, #74B49B);
+    background-image: -ms-linear-gradient(top, #A7D7C5, #74B49B);
+    background-image: -o-linear-gradient(top, #A7D7C5, #74B49B);
+    background-image: linear-gradient(to bottom, #A7D7C5, #74B49B);
+    -webkit-border-radius: 32;
+    -moz-border-radius: 32;
+    border-radius: 32px;
+    font-family: Arial;
+    color: #D3F6D1;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #5C8D89;
+    text-decoration: none;
+  }
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
 }
 
-
-.bottom-container{
-
-}
-
-.spanElement{
-    color: black
+.contact-message{
+    margin: 40px auto 60px;    
 }
 
 .topCloud{
     position: absolute;
     right: 300px;
-    top: 50px;
+    top: 70px;
 }
 
 .bottomCloud{
     position: absolute;
     left: 300px;
-    bottom : 300px
+    bottom : 290px
+}
+
+.mountain{
+    height: 300px;
+}
+
+.devGif{
+    width: 45%;
+    float: left;
+    /* clear: left; */
+    margin-right: 30px;
+}
+
+.officeGif{
+    width: 40%;
+    float: right;
+    margin-left: 30px;
+}
+
+.footer{
+    color:white;
+}
+a{
+    color: #5C8D89 ;
+    margin: auto 20px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+a:hover{
+    color: white;
 }

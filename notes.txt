@@ -38,3 +38,12 @@ CSS Static and Relative position
 CSS Centering
 - text-align:center centers the elements, but if width changes, it doesnt come to the center
 - use margin : auto if block element with set width
+
+CSS Fonts
+- font size: 100% = 16px = 1em, hence 90px = 5.625em 
+- px is static, hence when zoomed size doesnt change dynamically, but others scale.
+- in % and em, if the parent font size is set, then the inherited children get the parent.
+  hence use rem, to set size only for the element
+- text wrap around image change float
+- target a header or paragraph for wrapping, use clear.
+  clear:left; clear anything on left of element
